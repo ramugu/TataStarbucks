@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Starbucks</title>
+  <link rel="stylesheet" href="/asserts/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <div class="nav1 sticky-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+      <div class="container">
+        <a class="navbar-brand " href="#home">
+          <img src="./asserts/images/logo/starbucks_5977591.png" class="" height="40px" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+            <li class="nav-item ">
+              <a class="nav-link me-4" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="gift.html">Gift</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="order.html">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-4" href="pay.html">Pay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active me-4" href="store.html">Store</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 bi bi-search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+
+          </form>
+          <a href="Profile.html" class="">
+            <img src="./asserts/images/logo/account_thin.svg" class="mx-5" height="40px" alt="profile">
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- nav bar end -->
+  <div class="container mt-1">
+    <div class="row">
+        <ul class="order-nav d-flex" type="none">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home ></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="store.html">Fimd A Store</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="one">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="ser bg-dark max-h-100 p-1">
+          <div class="serch bg-light d-flex m-4" style="border: 1px solid black; border-radius: 10px;">
+            <img src="asserts/images/items/search.svg" class="" alt="">
+            <input type="search" class="w-100 border-0 h-100 p-2 ms-1" style="border-radius:0 10px 10px 0;">
+          </div>
+        </div>
+      
+        <div class="card" style="max-width: 26rem; border: 0;">
+          <img src="asserts/images/items/gpsOff.svg" class="card-img-top w-75 mx-auto" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sorry! We can't seem to spot you </h5>
+            <p class="card-text text-center">Please enable your location to find the nearest Starbucks</p>
+            <a href="#" class="btn btn-outline-success w-100 rounded-5">Enter Location Manually</a>
+          </div>
+        </div>
+    </div>
+      <div class="col-md" style="background-color:#f9f9f9">
+
+        <div class="box mt-4">
+          <div class="card mb-3 mx-auto" style="max-width: 18rem; background-color: rgb(235, 194, 194);">
+            <div class="row">
+              <div class="col">
+                <div class="card-body">
+                  <img src="asserts/images/items/searchresult@2x.png" class="img-fluid float-start " alt="...">
+                  <img src="asserts/images/items/closee.svg" class="float-end" alt="">
+                  <h6  class="card-title mt-2 text-danger ">&nbsp;&nbsp;&nbsp;No nearby store found</h6>
+                  <div class="row">
+                    <div class="col w-100 mx-auto">
+                      <p class="card-text" style="font-size: 12px; text-align: justify;">Oh no! We couldn’t find any store around the provided location. Please enter a different location to get nearby stores.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

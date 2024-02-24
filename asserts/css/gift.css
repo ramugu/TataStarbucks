@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: content-box;
+}
+.two{
+    background-color: #0E382C;
+}
+.imgg{
+    background: url("/asserts/images/items/background.png");
+    border-radius: 5px;
+}
+.itemss{
+    overflow-x: scroll;
+    scrollbar-color: white transparent;
+}
+.itemss a{
+    font-size: 18px;
+}
+.itemss a:hover{
+    border-bottom: 2px solid #198754;
+    color:#198754;
+}

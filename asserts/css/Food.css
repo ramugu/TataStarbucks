@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.card:hover
+{
+    box-shadow: 0px 0px 8px rgb(120, 117, 117);
+}
+.itemsss a{
+    font-size: 15px;
+
+    
+    }
+    .itemsss{
+        overflow-x: scroll;
+        scrollbar-color:#f7f7f7 transparent;
+    }
+    .itemsss a:hover
+    {
+        color: #198754;
+    }
+
+    .itemsss a:hover
+    {
+        border-bottom: 1px solid #0e382c;
+        color: #198754;
+    }
+    .itemssss
+    {
+        overflow-y: hidden;
+        scrollbar-color: #0e382c transparent;
+
+    }
+    .itemssss a{
+        font-size: small;
+        border: 1px solid black;
+        margin: 0 10px;
+        white-space: nowrap;
+    }
+    .itemssss a:hover
+    {
+        color: #198654;
+        background-color: white;
+        border: 1px solid black;
+    }
